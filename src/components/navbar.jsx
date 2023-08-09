@@ -3,7 +3,7 @@ import "../assets/css/navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary fixed-top">
+    <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="">
           <img src={Logo} alt="img" height={60} />
@@ -14,14 +14,19 @@ export default function Navbar() {
         <form className="d-flex search position-relative w-50" role="search">
           <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
           <button className="btn position-absolute ic-search border-0" type="submit">
-            <i className="bi bi-search"></i>
+            <i className="bi text-dark bi-search"></i>
           </button>
         </form>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                <button className="btn border">Daftar</button>
+                <button className="btn border px-4">Daftar Sekarang</button>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                <button className="btn border px-5">Daftar</button>
               </a>
             </li>
           </ul>

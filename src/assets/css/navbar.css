@@ -1,8 +1,13 @@
 .ic-search {
   z-index: 2;
   right: 0;
+  top: 0;
+  bottom: 0;
 }
 
+nav {
+  background-color: #333333;
+}
 
 @media (max-width: 768px) {
   .search {
