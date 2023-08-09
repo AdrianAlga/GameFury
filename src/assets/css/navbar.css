@@ -1,0 +1,11 @@
+.ic-search {
+  z-index: 2;
+  right: 0;
+}
+
+
+@media (max-width: 768px) {
+  .search {
+    display: none !important;
+  }
+}
