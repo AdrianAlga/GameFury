@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
 
 :root {
   --colorA: #1a1a1a;
@@ -14,12 +14,23 @@ body {
   font-family: var(--fonts);
 }
 
-
-.btn {
+/* .btn {
   background-color: var(--colorC);
   color: var(--colorA);
+} */
+
+.btn:hover {
+  background-color: rgb(59, 59, 59);
 }
 
-.background1{
-  background-color: #000000;
+.background1 {
+  background-color: #212020;
+}
+
+p,h5,h4,h3,h2,h1,ol,label{
+  color: white ;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 600;
 }

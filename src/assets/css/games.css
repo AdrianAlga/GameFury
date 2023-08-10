@@ -1,0 +1,40 @@
+#games .border1{
+    height: 200px;
+    background-color: #2120209b;
+    background-blend-mode: multiply;
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#games .border2{
+    height: 80px;
+}
+#games  .fs-txt{
+    font-size: 12px;
+}
+
+#games .image1{
+    top: 164px;
+}
+
+#games .font1{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#games .diamonds{
+    height: 100px;
+    width: 130px;
+}
+
+#games .bg-button{
+    background-color: #ffac42;
+}
+
+#games ol li{
+    font-size: 13px;
+}
+

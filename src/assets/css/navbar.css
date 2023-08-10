@@ -9,6 +9,10 @@ nav {
   background-color: #333333;
 }
 
+nav .btn{
+  background-color: #ffac42;
+}
+
 @media (max-width: 768px) {
   .search {
     display: none !important;

@@ -1,18 +1,44 @@
 .card1 {
-  height: 330px;
-  background-color: rgba(0, 0, 0, 0.05);
-  background-blend-mode: multiply;
-
+  height: 240px;
+  /* background-blend-mode: multiply; */
 }
 
-.card1 img{
+del{
+  font-size: 13px;
+}
+
+.card1 img {
   z-index: 0;
   /* filter: drop-shadow(0.5); */
   filter: brightness(0.5);
 }
+.card2 img {
+  filter: brightness(0.5);
+}
+
+.card2 {
+  height: 280px;
+  /* background-blend-mode: multiply; */
+}
+
+.card2 h4{
+  white-space: nowrap; /* Menghindari pemisahan teks menjadi baris baru */
+  overflow: hidden; /* Memotong teks yang melebihi lebar kontainer */
+  text-overflow: ellipsis;
+  font-size: 20px;
+}
 
 
+/* CARD 3 */
+.card3{
+  height: 100px;
+}
 
+.card3 h5{
+  font-size: 15px;
+}
 
-
-
+.card3 p{
+  font-size: 12px;
+  margin: 0;
+}
