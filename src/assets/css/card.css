@@ -32,6 +32,7 @@ del{
 /* CARD 3 */
 .card3{
   height: 100px;
+  /* background-color: rgb(108,117,125); */
 }
 
 .card3 h5{
@@ -39,6 +40,6 @@ del{
 }
 
 .card3 p{
-  font-size: 12px;
+  font-size: 13px;
   margin: 0;
 }

@@ -6,10 +6,12 @@ import { useState } from "react";
 import iconMl1 from "../assets/images/iconMl1.png";
 import iconMl2 from "../assets/images/iconMl2.png";
 import iconMl3 from "../assets/images/iconMl3.png";
+import Icon1 from "../assets/images/diamondsMl.png";
 import Card3 from "../components/card3";
 
 export default function Games() {
   const [diamond, setDiamond] = useState(1);
+  const [game, setGame] = useState();
 
   return (
     <>
@@ -132,14 +134,58 @@ export default function Games() {
                     {diamond === 1 && (
                       <div className="container">
                         <div className="row">
-                          <div className="col-4 mb-3">
-                            <Card3 />
+                          <div className="col-4 px-1 mb-2">
+                            <Card3
+                              icon1={Icon1}
+                              click={() => {
+                                setGame(1);
+                              }}
+                              bgGame={`${game === 1 && "bg-game border border-2"}`}
+                            >
+                              <h1></h1>
+                              <h5>{5+0} Diamonds (5+0 Bonus)</h5>
+                              <p>10.000</p>
+                            </Card3>
                           </div>
                         </div>
                       </div>
                     )}
-                    {diamond === 2 && <h1>Hello 2</h1>}
-                    {diamond === 3 && <h1>Hello 3</h1>}
+                    {diamond === 2 && (
+                      <div className="container">
+                        <div className="row">
+                          <div className="col-4 px-1 mb-2">
+                            <Card3
+                              dm1="5"
+                              dm2="10"
+                              price="10.000"
+                              icon1={iconMl2}
+                              click={() => {
+                                setGame(1);
+                              }}
+                              bgGame={`${game === 1 && "bg-game border border-2"}`}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                    {diamond === 3 && (
+                      <div className="container">
+                        <div className="row">
+                          <div className="col-4 px-1 mb-2">
+                            <Card3
+                              dm1="5"
+                              dm2="10"
+                              price="10.000"
+                              icon1={iconMl3}
+                              click={() => {
+                                setGame(1);
+                              }}
+                              bgGame={`${game === 1 && "bg-game border border-2"}`}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
