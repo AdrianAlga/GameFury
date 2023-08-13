@@ -27,7 +27,7 @@ body {
   background-color: #212020;
 }
 
-p,h5,h4,h3,h2,h1,ol,label{
+p,h5,h4,h3,h2,h1,ol,label,del{
   color: white ;
 }
 

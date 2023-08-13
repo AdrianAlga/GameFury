@@ -142,8 +142,7 @@ export default function Games() {
                               }}
                               bgGame={`${game === 1 && "bg-game border border-2"}`}
                             >
-                              <h1></h1>
-                              <h5>{5+0} Diamonds (5+0 Bonus)</h5>
+                              <h5>Weekly Diamond Pass</h5>
                               <p>10.000</p>
                             </Card3>
                           </div>
@@ -155,15 +154,16 @@ export default function Games() {
                         <div className="row">
                           <div className="col-4 px-1 mb-2">
                             <Card3
-                              dm1="5"
-                              dm2="10"
-                              price="10.000"
                               icon1={iconMl2}
                               click={() => {
                                 setGame(1);
                               }}
                               bgGame={`${game === 1 && "bg-game border border-2"}`}
-                            />
+                            >
+                              <h5>Twilight Pass</h5>
+                              <p>10.000</p>
+                              <del>15.000</del>
+                            </Card3>
                           </div>
                         </div>
                       </div>
@@ -173,15 +173,16 @@ export default function Games() {
                         <div className="row">
                           <div className="col-4 px-1 mb-2">
                             <Card3
-                              dm1="5"
-                              dm2="10"
-                              price="10.000"
                               icon1={iconMl3}
                               click={() => {
                                 setGame(1);
                               }}
                               bgGame={`${game === 1 && "bg-game border border-2"}`}
-                            />
+                            >
+                              <h5>Weekly Diamond Pass</h5>
+                              <p>10.000</p>
+                              <del>15.000</del>
+                            </Card3>
                           </div>
                         </div>
                       </div>
