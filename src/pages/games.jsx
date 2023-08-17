@@ -58,7 +58,7 @@ export default function Games() {
                       <li>Pilih Item</li>
                       <li>Pilih Pembayaran</li>
                       <li>Masukkan No WhatsApp</li>
-                      <li>Klik Konfirmasi Top Up & lakukan Pembayaran</li>
+                      <li>Klik Konfirmasi Top-Up & lakukan Pembayaran</li>
                       <li>Diamonds otomatis masuk ke akun game</li>
                     </ol>
                   </div>
